@@ -75,24 +75,8 @@ Geographic location is another important factor influencing financial literacy, 
 The analysis shows clear regional differences, with higher financial literacy levels more prevalent in the northern regions, while literacy tends to decrease in the South. Interestingly, the Centre and Islands regions show a more balanced distribution across literacy categories. A Chi-squared test at the 0.001 significance level strongly supports the association between financial literacy and geographic location, confirming that region plays a substantial role in financial literacy, with the North generally leading and the South lagging.
 
 
-### Model
-The interpretation of β coefficients in the context of the random effects ordered probit model is crucial to understanding the relationship between the independent variables and financial literacy levels. In this model, the β coefficients correspond to a latent variable, 
-𝑦
-𝑖
-∗
-y 
-i
-∗
-​
- , which underlies the observed ordinal categories of financial literacy. A positive β coefficient indicates that as the associated independent variable increases, the latent variable 
-𝑦
-𝑖
-∗
-y 
-i
-∗
-​
-  also increases, raising the probability of the individual falling into a higher financial literacy category (e.g., “high knowledge”) and reducing the probability of being in a lower category (e.g., “no knowledge”). However, effects on intermediate categories (like “low” or “medium” knowledge) are more complex and may vary.
+## Model
+The interpretation of β coefficients in the context of the random effects ordered probit model is crucial to understanding the relationship between the independent variables and financial literacy levels. In this model, the β coefficients correspond to a latent variable, yi, which underlies the observed ordinal categories of financial literacy. A positive β coefficient indicates that as the associated independent variable increases, the latent variable yi also increases, raising the probability of the individual falling into a higher financial literacy category (e.g., “high knowledge”) and reducing the probability of being in a lower category (e.g., “no knowledge”). However, effects on intermediate categories (like “low” or “medium” knowledge) are more complex and may vary.
 
 Using the random effects ordered probit model accounts for the panel structure of the data, capturing the unobserved heterogeneity between individuals observed over time. This approach better models the intra-individual correlations, leading to more accurate coefficient estimates in our context compared to a standard ordered probit model.
 
@@ -107,3 +91,4 @@ Pseudo-R² = 1 - log L1 / log L0
 Where log L_1 is the log-likelihood of a baseline model with only a constant term. McFadden (1977) suggests that values between 0.2 and 0.4 indicate an excellent fit. However, our Pseudo-R² falls short of this range, suggesting that alternative model specifications may improve fit.
 
 This updated approach, using a random effects model, offers a more robust assessment of factors influencing financial literacy, incorporating individual differences over time within the panel structure.
+
