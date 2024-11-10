@@ -103,6 +103,7 @@ Goodness-of-fit measures are useful for assessing how well the model aligns with
 
 Pseudo-R² = 1 - log L1 / log L0
 ​
-where log L_1 is the log-likelihood of a baseline model with only a constant term. McFadden (1977) suggests that values between 0.2 and 0.4 indicate an excellent fit. However, our Pseudo-R² falls short of this range, suggesting that alternative model specifications may improve fit.
+
+Where log L_1 is the log-likelihood of a baseline model with only a constant term. McFadden (1977) suggests that values between 0.2 and 0.4 indicate an excellent fit. However, our Pseudo-R² falls short of this range, suggesting that alternative model specifications may improve fit.
 
 This updated approach, using a random effects model, offers a more robust assessment of factors influencing financial literacy, incorporating individual differences over time within the panel structure.
