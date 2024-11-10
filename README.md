@@ -24,3 +24,16 @@ Responses to these questions were scored: each correct answer received 1 point, 
 
 The ordered nature of finliteracy makes it ideal for analysis through models like the ordered probit model, which is used to examine the influence of demographic and socioeconomic factors on financial literacy levels across 2016 - and 2020. This categorization underpins the study's subsequent exploration of variables impacting financial literacy.
 
+## EDA
+This section provides an overview of the independent variables used to analyze financial literacy differences, focusing on their roles in shaping individuals' financial knowledge. 
+
+The main variables examined are:
+
+- Income (y): A continuous variable, logarithmically transformed to handle outliers and capture a non-linear relationship with financial literacy. Missing values were assigned a zero, assuming minimal income for non-reporting individuals. Higher income correlates with greater financial literacy across both survey years.
+- Education Level (studio): Used to evaluate how formal education impacts financial knowledge.
+- Savings (deposit): Assesses the influence of savings ownership on financial literacy.
+- Gender (sex): Explores potential gender-based disparities in financial literacy.
+- Age (eta): Considers the effect of age on financial literacy levels.
+- Geographical Area (area5): Examines regional variations in financial knowledge.
+  
+These variables serve as essential factors in identifying the primary drivers of financial literacy in the dataset.
