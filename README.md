@@ -29,7 +29,8 @@ This section provides an overview of the independent variables used to analyze f
 
 The main variables examined are:
 
-- Income (y): A continuous variable, logarithmically transformed to handle outliers and capture a non-linear relationship with financial literacy. Missing values were assigned a zero, assuming minimal income for non-reporting individuals. Higher income correlates with greater financial literacy across both survey years.
+- Income (y): A continuous variable, logarithmically transformed to handle outliers and capture a non-linear relationship with financial literacy. Missing values were assigned a zero, assuming minimal income for non-reporting   
+              individuals. Higher income correlates with greater financial literacy across both survey years.
 - Education Level (studio): Used to evaluate how formal education impacts financial knowledge.
 - Savings (deposit): Assesses the influence of savings ownership on financial literacy.
 - Gender (sex): Explores potential gender-based disparities in financial literacy.
